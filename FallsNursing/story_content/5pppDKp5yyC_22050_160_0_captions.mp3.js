@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"1%0A00:00:00,000%20--%3E%2000:00:00,600%0A%0A%0A2%0A00:00:00,600%20--%3E%2000:00:02,750%0ASPEAKER%201:%20Review%0Athese%20examples."}')
