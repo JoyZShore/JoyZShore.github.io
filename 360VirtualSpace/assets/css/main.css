@@ -3152,7 +3152,7 @@ input, select, textarea {
 /* Table */
 
 	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: hidden;
 		overflow-x: auto;
 	}
 
@@ -3279,6 +3279,9 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #4c4d4c;
+		}
+.wrapper.style4 {
+			background-color: #FFFFFF;
 		}
 
 		.wrapper.style3-alt {
