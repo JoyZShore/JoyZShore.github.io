@@ -2580,6 +2580,15 @@ input, select, textarea {
 
 /* Image */
 
+.LogoU{
+		display: inline-block;
+		position: relative;
+		max-width: 100%;
+	padding: 3px;
+	margin: 3px;
+	
+
+}
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -3452,6 +3461,9 @@ input, select, textarea {
 						#header > nav > ul > li a.active {
 							color: #ffffff;
 						}
+						#header > nav > ul > li a:visited {
+							color: rgba(255, 255, 255, 0.50);
+						}
 
 		@media screen and (max-width: 736px) {
 
@@ -3807,6 +3819,9 @@ input, select, textarea {
 			#sidebar nav a:hover {
 				color: rgba(255, 255, 255, 0.75);
 			}
+			#sidebar nav a:visited {
+				color: rgba(255, 255, 255, 0.50);
+			}
 
 			#sidebar nav a.active {
 				color: #ffffff;
@@ -3885,7 +3900,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #0089cf;
+							background-color: #FDB42B;
+							
 						}
 
 		}
