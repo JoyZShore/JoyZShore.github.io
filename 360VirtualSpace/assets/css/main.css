@@ -173,7 +173,10 @@ input, select, textarea {
 		color: inherit;
 		text-decoration: none;
 	}
-
+	a:visited {
+			border-bottom-color: transparent;
+			color: rgba(255, 255, 255, 0.50);
+		}
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff;
@@ -3453,7 +3456,9 @@ input, select, textarea {
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
 					}
-
+						#header > nav > ul > li a:visited {
+							color: rgba(255, 255, 255, 0.50);
+						}
 						#header > nav > ul > li a:hover {
 							color: rgba(255, 255, 255, 0.75);
 						}
@@ -3461,9 +3466,7 @@ input, select, textarea {
 						#header > nav > ul > li a.active {
 							color: #ffffff;
 						}
-						#header > nav > ul > li a:visited {
-							color: rgba(255, 255, 255, 0.50);
-						}
+					
 
 		@media screen and (max-width: 736px) {
 
@@ -3815,13 +3818,13 @@ input, select, textarea {
 				transition: max-width 0.2s ease;
 				max-width: 0;
 			}
-
+			#sidebar nav a:visited {
+							color: rgba(255, 255, 255, 0.50);
+			}
 			#sidebar nav a:hover {
 				color: rgba(255, 255, 255, 0.75);
 			}
-			#sidebar nav a:visited {
-				color: rgba(255, 255, 255, 0.50);
-			}
+			
 
 			#sidebar nav a.active {
 				color: #ffffff;
