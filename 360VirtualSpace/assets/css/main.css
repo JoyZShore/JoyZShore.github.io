@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #FFFFFF;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3182,7 +3182,8 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(71,71,71,1);
 			}
 
 		table td {
@@ -3281,11 +3282,11 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			/*background-color: #0089cf; */
-			background-image: -moz-linear-gradient(to right, #F0B428, #645faa);
-				background-image: -webkit-linear-gradient(to right, #F0B428, #645faa);
-				background-image: -ms-linear-gradient(to right, #F0B428, #645faa);
-				background-image: linear-gradient(to right, #F0B428, #645faa);
-			height: 30px;
+			background-image: -moz-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: -webkit-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: -ms-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: linear-gradient(to right, #F0B428, #FF6428);
+			height: 10px;
 		}
 
 		.wrapper.style2-alt {
@@ -3804,14 +3805,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #2F2F2F;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #F0B428, #645faa);
-				background-image: -webkit-linear-gradient(to right, #F0B428, #645faa);
-				background-image: -ms-linear-gradient(to right, #F0B428, #645faa);
-				background-image: linear-gradient(to right, #F0B428, #645faa);
+				background-image: -moz-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: -webkit-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: -ms-linear-gradient(to right, #F0B428, #FF6428);
+				background-image: linear-gradient(to right, #F0B428, #FF6428);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3819,7 +3820,7 @@ input, select, textarea {
 				max-width: 0;
 			}
 			#sidebar nav a:visited {
-							color: rgba(255, 255, 255, 0.50);
+							color: rgba(255, 255, 255, 0.3);
 			}
 			#sidebar nav a:hover {
 				color: rgba(255, 255, 255, 0.75);
