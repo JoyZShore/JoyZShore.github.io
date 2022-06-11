@@ -1,0 +1,114 @@
+{
+  "version": "3.39.21985.0",
+  "scenes": [
+    {
+      "title": "Lifestyle Groups"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6cC50WBcM6P",
+      "title": "INTRO",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5o6bdaZmIGs",
+      "title": "Power Elites",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6T20QJSPTgS",
+      "title": "Flourishing Families",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5hKwcMBdkcw",
+      "title": "Booming with Confidence",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5vpOWtaAqJy",
+      "title": "Suburban Style",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6Vpd3m5NiJj",
+      "title": "Thriving Boomers",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6LUNxcPovTM",
+      "title": "Promising Families",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "5bXnHQDCTEF",
+      "title": "Young City Solos",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "66HlnBg2E9X",
+      "title": "Bourgeois Melting Pot",
+      "scene_index": "1.9"
+    },
+    {
+      "id": "5rOSurHoPgG",
+      "title": "Famiy Union",
+      "scene_index": "1.10"
+    },
+    {
+      "id": "6rQm2nXknjV",
+      "title": "Autumn Years",
+      "scene_index": "1.11"
+    },
+    {
+      "id": "6n1wxf5HY65",
+      "title": "Significant Singles",
+      "scene_index": "1.12"
+    },
+    {
+      "id": "6q6iKNgpQom",
+      "title": "Blue Sky Boomers",
+      "scene_index": "1.13"
+    },
+    {
+      "id": "6MbCaODQEHE",
+      "title": "Families in Motion",
+      "scene_index": "1.14"
+    },
+    {
+      "id": "5qaeyvxXZof",
+      "title": "Pastoral Pride",
+      "scene_index": "1.15"
+    },
+    {
+      "id": "5mhZb9dLFSn",
+      "title": "Singles and Starters",
+      "scene_index": "1.16"
+    },
+    {
+      "id": "6h98z9AfGpO",
+      "title": "Cultural Connections",
+      "scene_index": "1.17"
+    },
+    {
+      "id": "69QGyTrwpjp",
+      "title": "Golden Year Guardians",
+      "scene_index": "1.18"
+    },
+    {
+      "id": "6nPiAyq2P7R",
+      "title": "Aspirational Fusion",
+      "scene_index": "1.19"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 500
+  },
+  "stage": {
+    "width": 720,
+    "height": 405
+  }
+}
