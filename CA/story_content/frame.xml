@@ -101,6 +101,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -124,6 +126,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -147,6 +151,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -170,6 +176,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -193,6 +201,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1409,15 +1419,41 @@
       <string id="three_image_interaction_prev">previous</string>
       <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
       <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
-      <string id="three_image_view_image">view image</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">fullscreen</string>
+      <string id="modern_video_playback_settings">playback settings</string>
+      <string id="modern_video_captions_off">off</string>
+      <string id="modern_video_captions_on">on</string>
+      <string id="modern_video_captions_label">captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">Picture-in-Picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">Playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
@@ -1427,6 +1463,9 @@
       <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1451,7 +1490,9 @@
       <string id="shortcut">Shortcut</string>
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
@@ -1499,12 +1540,26 @@
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
       <string id="submit_tip">Submit</string>
       <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
       <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
@@ -1520,15 +1575,14 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5YXTn6eszwZ" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5YXTn6eszwZ" displaytext="CA" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5YXTn6eszwZ.5aKP71YEf13" displaytext="360 Virtual Office" expand="false" type="slide" />
             <slidelink slideid="_player.5YXTn6eszwZ.6MfSVCHOb4p" displaytext="Welcome to CA" expand="false" type="slide" />
-            <slidelink slideid="_player.5YXTn6eszwZ.5fkBVlLjWme" displaytext="Linear Addressable" expand="false" type="slide" />
-            <slidelink slideid="_player.5YXTn6eszwZ.6OhFwZIVtBe" displaytext="2020 Mission &amp;amp; Goals" expand="false" type="slide" />
-            <slidelink slideid="_player.5YXTn6eszwZ.6D2tlFNsOTo" displaytext="WOW Effectv" expand="false" type="slide" />
+            <slidelink slideid="_player.5YXTn6eszwZ.5aKP71YEf13" displaytext="360 Virtual Office" expand="false" type="slide" />
             <slidelink slideid="_player.5YXTn6eszwZ.5yXywUQeg1l" displaytext="Audience Intelligence" expand="false" type="slide" />
             <slidelink slideid="_player.5YXTn6eszwZ.6oYHtDQ3KIU" displaytext="Digital Campaign Reports" expand="false" type="slide" />
+            <slidelink slideid="_player.5YXTn6eszwZ.6De8R6yKith" displaytext="2020 Mission &amp;amp; Goals" expand="false" type="slide" />
+            <slidelink slideid="_player.5YXTn6eszwZ.6ktHHMPyrkZ" displaytext="2020 Mission &amp;amp; Goals" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
